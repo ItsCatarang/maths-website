@@ -1,0 +1,116 @@
+  body{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, sans-serif
+   }
+
+/* -000- Area styling -000- */
+
+/* ---- Area colouring ---- */
+  
+.banner, .footer { background-color: #c4fbf0ff;}
+.nav, .side { background-color: #bbe9fbff;}
+.main { background-color:#f4f9ffff}
+.avatar, .about {background-color: #e6e6ffff;}
+
+
+/* Area specifics */
+
+.banner {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-image {
+  height: 55px;
+margin-top: 8px;
+margin-left: 8px;
+}
+.banner-heading {
+margin-left: -80px;
+color: rgb(29, 84, 58);
+font-size: 30px;
+}
+
+
+.nav {
+  font-size: 120%;
+  height: 54px;
+  text-align: center;
+padding-top: 10px;
+padding-bottom: 0px;
+display:flex;
+justify-content: space-around;
+
+}
+
+.main {
+height: 74%;
+width: 85%;
+display: inline-flex;
+justify-content: space-around;
+}
+
+.about {
+  margin:auto;
+  height: 80%;
+  width: 35%;
+  border: 2px solid rgb(187, 187, 226);
+}
+
+
+.avatar {
+  margin:auto;
+  height: 80%;
+height: 80%;
+  width: 35%;
+  border: 2px solid rgb(187, 187, 226)
+}
+
+.side {
+ display:block;
+ float:right;
+ width:15%;
+ height: 74%;
+}
+
+.footer {
+  height: 8%;
+  padding-top: 5px;
+  padding-left: 5px;
+  color: rgb(132, 162, 156);
+}
+
+.avatar-heading { 
+  text-align: center;
+}
+
+.avatar-nav {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 0;
+}
+
+.avatar-picture {
+  height:75%;
+  text-align: center;
+}
+
+img {
+  height: 100%;
+}
+
+.avatar-button {
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  background-color: rgb(183, 183, 236);
+}
+
+/* -000- End of area styling -000- */
+
+/* Navigation Links */
+.nav a:link {color: rgb(88, 150, 175) ;}
+.nav a:visited {color: rgb(88, 150, 175) ;}
+.nav a:hover {color: rgb(51, 113, 137) ;}
